@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyCourse">
+
+    <LinearLayout
+        android:id="@+id/ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/background_pic"
+        >
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/back" />
+        <TextView
+            android:id="@+id/actionbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="7sp"
+            android:text="Armish Khan"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/border"
+        android:paddingTop="2dp"
+        android:shadowColor="@color/colorBlack"
+        android:text="UI/UX "
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="115dp"
+        android:text="Credit hrs.: 2$/hour"
+        android:textColor="@color/colorBlack"
+        android:textSize="17sp"
+        android:textStyle="italic"
+
+        />
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="146dp"
+        android:text="Tutor"
+        android:textColor="@color/colorBlack"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="136dp"
+        android:text="Slots: 2pm-3pm"
+        android:textColor="@color/colorBlack"
+        android:textSize="17sp"
+        android:textStyle="italic"
+
+        />
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="115dp"
+        android:text="Fizza Moin"
+        android:textColor="@color/colorBlack"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/centre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/background_pic"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <TableRow android:layout_marginLeft="30dp">
+
+            <ImageView
+                android:id="@+id/messages"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:paddingLeft="-20dp"
+                android:paddingTop="3dp"
+                android:src="@drawable/messages" />
+
+            <ImageView
+                android:id="@+id/videoCam"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="-20dp"
+                android:paddingTop="4dp"
+                android:src="@drawable/video_cam" />
+
+            <ImageView
+                android:id="@+id/notes"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:paddingLeft="-20dp"
+                android:paddingTop="9dp"
+                android:src="@drawable/notes" />
+
+        </TableRow>
+    </TableLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="340dp"
+        android:text=" Course Overview"
+        android:textColor="@color/colorBlack"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorWhite"
+        android:padding="15dp"
+        android:elevation="2dp"
+        android:text="The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design, and offers practical, skill-based instruction centered around a visual communications perspective, rather than on one focused on marketing or programming alone."
+        android:textColor="@color/colorBlack"
+        android:textSize="12sp">
+
+    </TextView>
+
+    <TableLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/background_pic"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"  >
+
+        <TableRow
+            android:layout_marginLeft="30dp">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:src="@drawable/home"
+                android:paddingLeft="-20dp"
+                android:paddingTop="3dp"
+                />
+
+            <ImageView
+                android:id="@+id/add"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:src="@drawable/add"
+                android:paddingLeft="-20dp"
+                android:paddingTop="7dp"
+                />
+            <ImageView
+                android:id="@+id/notification"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:src="@drawable/bell"
+                android:paddingLeft="-20dp"
+                android:paddingTop="10dp"
+                />
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:src="@drawable/user"
+                android:paddingLeft="-20dp"
+                android:paddingTop="8dp"
+
+                />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <LinearLayout
+        android:id="@+id/ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/background_pic"
+        >
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/menu" />
+        <TextView
+            android:id="@+id/actionbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="7sp"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>

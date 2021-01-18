@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tutor_notification">
+    <LinearLayout
+        android:id="@+id/ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/background_pic"
+        >
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/back" />
+        <TextView
+            android:id="@+id/actionbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="7sp"
+            android:text="Notification"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:elevation="@dimen/cardview_default_radius">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:src="@drawable/networking"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chemistry"
+            android:textStyle="bold"
+            android:layout_marginTop="112dp"
+            android:textSize="22sp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 minutes ago"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            android:layout_marginTop="121dp"
+            android:layout_marginLeft="245dp"
+
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="173dp"
+            android:paddingLeft="10dp"
+            android:textStyle="italic"
+            android:text="Student"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anabiya Aleem"
+            android:textStyle="bold"
+            android:layout_marginTop="150dp"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorBlack"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="150dp"
+            android:text="Requesting"
+            android:textColor="@color/colorBlack"
+            android:textSize="17sp"
+            android:textStyle="italic"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read more"
+            android:textSize="18sp"
+            android:contextClickable="true"
+            android:textStyle="italic"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="230dp"
+            android:textColor="@color/colorPrimaryDark"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
